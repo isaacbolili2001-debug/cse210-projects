@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise4 Project.");
+        int AddNumbers(int a, int b)
+        {
+            int sum = a + b;
+            return sum;
+        }
+        int result = AddNumbers(5, 10);
+        Console.WriteLine("The sum is: " + result);
     }
 }
